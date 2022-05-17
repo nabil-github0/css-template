@@ -36,13 +36,15 @@ body {
 /* Navigarion Bar Responsiveness */
 @media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 18rem;
+        font-size: 16rem;
         padding: 0rem;
     }
+    .grid {
+        width:100%;
 }
 @media screen and (max-width: 540px) {
     .main-nav {
-        font-size: 15rem;
+        font-size: 12rem;
         padding: 0rem;
     }
 }
