@@ -41,11 +41,15 @@ body {
     }
     .grid {
         width:100%;
+    }
 }
 @media screen and (max-width: 540px) {
     .main-nav {
         font-size: 12rem;
         padding: 0rem;
+    }
+        .grid {
+        width:100%;
     }
 }
 /* contact to the right */
