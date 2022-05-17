@@ -38,6 +38,7 @@ body {
     .main-nav {
         font-size: 16rem;
         padding: 0rem;
+        margin: 0rem;
     }
     .grid {
         width:100%;
@@ -47,6 +48,7 @@ body {
     .main-nav {
         font-size: 12rem;
         padding: 0rem;
+        margin: 0rem;
     }
         .grid {
         width:100%;
