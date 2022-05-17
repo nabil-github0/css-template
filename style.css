@@ -36,7 +36,7 @@ body {
 /* Navigarion Bar Responsiveness */
 @media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 20.5rem;
+        font-size: 18rem;
         padding: 0rem;
     }
 }
