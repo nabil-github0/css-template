@@ -1,0 +1,114 @@
+html {
+    font-size: 6.25%;
+}
+/* The extra margin */
+body {
+    margin: auto 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.zone {
+    font-size: 40rem;
+    /* padding: 20rem 20rem;
+    margin: 30rem 30rem; */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    /* display: inline-block; */
+    border-radius: 8rem;
+    border:2rem solid rgb(218, 217, 217);
+    transition: all 0.3s linear;
+}
+/* all hover effects */
+.zone:hover {
+    transform: scale3d(1.000000001, 1.000000001, 1.000000001);
+    box-shadow: rgba(141, 150, 136, 0.8) 0 3rem 3rem 3rem; 
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 25rem;
+    margin: 0;
+}
+/* Navigarion Bar Responsiveness */
+@media screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 20.5rem;
+        padding: 0rem;
+    }
+}
+/* contact to the right */
+.cont {
+    margin-left: auto;
+}
+li {
+    padding-left:25rem;
+    padding-right: 25rem;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+}
+/* Styling of text */
+a {
+    font-family: 'Koulen', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+.conatainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    cursor: default;
+    transform: none;
+    border: none;
+}
+.cover {
+    width: 400rem;
+}
+/* Grid */
+.grid {
+    display: grid;
+    grid-gap: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(300rem, 1fr));
+}
+.box > img {
+    width: 100%;
+}
+.box {
+    background-color: white;
+    padding: 20rem;
+    margin: 15rem;
+    border: 1rem solid black;
+}
+
+footer {
+    text-align: center;
+}
+
+/* navigation-bar */
+.green {
+    background: rgb(110, 153, 218);
+/* background: linear-gradient(90deg, rgba(108,190,207,1) 0%, rgba(108,190,207,1) 50%, rgba(69,193,252,1) 100%); */
+}
+/* cover */
+/* .orange {
+    background: rgb(34,193,195); 
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+} */
+/* products/ my stuffs */
+.red {
+    background: rgb(110, 153, 218);
+    /* background: linear-gradient(90deg, rgba(207,108,135,1) 0%, rgba(226,28,28,1) 50%, rgba(252,176,69,1) 100%); */
+}
+.blue {
+    color: white;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 32rem;
+    background-color: rgb(153, 64, 212);
+}
