@@ -38,9 +38,9 @@ body {
     .main-nav {
         font-size: 16rem;
         padding: 0rem;
-        margin: 0rem;
+        margin: 5rem;
     }
-    .grid {
+        img {
         width:100%;
     }
 }
@@ -48,9 +48,9 @@ body {
     .main-nav {
         font-size: 12rem;
         padding: 0rem;
-        margin: 0rem;
+        margin: 4rem;
     }
-        .grid {
+        img {
         width:100%;
     }
 }
