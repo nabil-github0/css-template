@@ -36,25 +36,13 @@ body {
 /* Navigarion Bar Responsiveness */
 @media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 16rem;
+        font-size: 18rem;
         padding: 0rem;
-    }
-        img {
-        width:100%;
-    }
-}
-@media screen and (max-width: 540px) {
-    .main-nav {
-        font-size: 14rem;
-        padding: 0rem; 
-    }
-        img {
-        width:100%;
     }
 }
 /* contact to the right */
 .cont {
-    margin-left: auto 0;
+    margin-left: auto;
 }
 li {
     padding-left:25rem;
