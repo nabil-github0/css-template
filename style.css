@@ -38,7 +38,7 @@ body {
     .main-nav {
         font-size: 16rem;
         padding: 0rem;
-        margin: 2rem;
+        margin-left: 0rem;
     }
         img {
         width:100%;
@@ -47,8 +47,8 @@ body {
 @media screen and (max-width: 540px) {
     .main-nav {
         font-size: 14rem;
-        padding: 0rem;
-        margin: 1rem;
+        padding: 0rem; 
+        margin-left:auto 0rem;
     }
         img {
         width:100%;
